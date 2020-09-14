@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pl-PL"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>DEMO</title>
+        <meta name="description" content="Strona demo">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <nav>
+                <ul>
+                    <li class="navItem"><a href="#home">Home</a></li>
+                    <li class="navItem"><a href="#muzyka">Muzyka</a></li>
+                    <li class="navItem"><a href="#newsy">Newsy</a></li>
+                    <li class="navItem"><a href="#media">Media</a></li>
+                    <li class="navItem"><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="slider" class="slider">
+            <div class="heading-box">
+                <h1>AM0k_music</h1>
+                <h2>synthwave | newretrowave | electronic</h2>
+                <a href="#muzyka" class="btn">
+                    Słuchaj<i class="fas fa-arrow-down"></i>
+                </a>
+            </div>
+        </section>
+        <section id="muzyka" class="muzyka">
+            <h2>Posłuchaj w SPOTIFY</h2>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <i class="fas fa-music"></i>
+                    <p><iframe src="https://open.spotify.com/embed/track/2A60Swp55cMxG5cLH7ZyZI" width="300" height="380" 
+                        frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </p>
+                </div>
+                <div class="flex-item">
+                    <i class="fas fa-list"></i>
+                    <p><iframe src="https://open.spotify.com/embed/playlist/1CKGmnuzgj1Y6xLTUQSrcB" width="300" height="380" 
+                        frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
+                </div>
+                <div class="flex-item">
+                    <i class="fas fa-angle-right"></i>
+                    <p><iframe src="https://open.spotify.com/embed/track/4lkLR6fKc4TJRDVjpsLtEx" width="300" height="380" 
+                        frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
+                </div>
+            </div>
+        </section>
+        <section id="newsy" class="newsy">
+            <h2>Nowości</h2>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hEyrOHGVfCk" 
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="flex-item">
+                    <h3><i>Nowy singiel</i></h3>
+                    <p>AM0k - I like u</p>
+                    <p>
+                        SPOTIFY, APPLE MUSIC, TIDAL... ► https://lnkfi.re/K4deRogd <br />
+                        Facebook: https://www.facebook.com/AM0k.music/ <br />
+                        IG: https://www.instagram.com/am0k.music/ <br />
+                        
+                        
+                    </p>
+                    <p>
+                        Gitara: Marcin Nowak <br />
+                        Mastering: Vincenzo Salvia from Stranger Things <br />
+                        Grafika: Adam Pasek (https://artstation.com/llamarider)
+                    </p>
+                    <p>
+                        #synthwave #newretrowave #80s #AM0k
+                    </p>
+                    
+                    <a href="#contact" class="btn">
+                        Zamów!
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="media" class="media">
+            <h2>Media</h2>
+            <div class="container">
+                <div class="media-box">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Formularz kontaktowy</h2>
+            <div class="contact-box">
+                <form method="POST">
+                    <label for="Name">Imię</label>
+                    <input type="text" placeholder="Imię" id="Name" required pattern="^[A-Z].*" maxlength="30" />
+                    <label for="Email">Email</label>
+                    <input type="email" placeholder="Email" id="Email" required/>
+                    <label for="Message">Wiadomość</label> 
+                    <textarea cols="30" rows="4" placeholder="Wpisz wiadomość..." id="Message"></textarea>
+                    <input type="submit" value="Wyślij" class="btn"/>
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <ul class="sitemap">
+                        <li class=""><a href="#muzyka">Muzyka</a></li>
+                        <li class=""><a href="#newsy">Aktualności</a></li>
+                        <li class=""><a href="#">HOME <i class="fas fa-arrow-alt-circle-up"></i></a></li>
+                    </ul>
+                </div>
+                
+                
+                <div class="copy flex-item">
+                    <p>&copy; AM0k_music 2020<p>
+                </div>
+                
+
+
+                <div class="flex-item">
+                    <ul class="social">
+                        <li><a href="https://facebook.com/am0k.music" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.instagram.com/am0k.music" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/am0k_music" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>  
+        <script src="./script.js" async defer></script>
+    </body>
+</html>
